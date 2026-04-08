@@ -10,5 +10,9 @@ export function generarReporte(estado: EstadoMatricula): string {
 
     case "FINALIZADA":
       return `Matrícula finalizada con nota media de ${estado.notaMedia}`;
+
+    default:
+      const agotado: never = estado;
+      throw new Error(`Estado no manejado: ${JSON.stringify(agotado)}`);
   }
 }
