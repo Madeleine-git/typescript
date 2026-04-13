@@ -6,7 +6,8 @@ Este módulo implementa una capa de modelado de dominio y acceso a datos
 para un sistema de gestión universitaria, desarrollado en TypeScript con modo estricto activado. El objetivo es demostrar el uso de patrones de diseño modernos, tipado fuerte y arquitectura limpia aplicada a un contexto real.
 
 ## Estructura del proyecto
-   
+
+```   
 modulo-2/
   src/
     domain/
@@ -19,6 +20,7 @@ modulo-2/
   docs/
     arquitectura.md    → Este documento
 
+```
 
 ## Modelado del dominio
 
